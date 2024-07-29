@@ -6,6 +6,9 @@ import { Router } from '@angular/router';
   providedIn: 'root'
 })
 export class AuthService {
+  googleSignIn() {
+    throw new Error('Method not implemented.');
+  }
 
   constructor(private fireauth: AngularFireAuth, private router: Router) { }
 
